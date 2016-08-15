@@ -1,4 +1,4 @@
-class RemoveNameFromTweets < ActiveRecord::Migration
+class CreateComments < ActiveRecord::Migration
   def change
     create_table :commentes do |t|
       t.integer :user_id
